@@ -91,58 +91,56 @@ class _HomeState extends State<Home> {
                       alignment: Alignment.bottomCenter,
                       height: 200.63,
                       width: 147.0,
-                      child: Flexible(
-                        child: Column(
-                          children: [
-                            const Text(
-                              '100 Coupons',
-                              style: TextStyle(
-                                  color: Color.fromRGBO(22, 30, 30, 1),
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18),
+                      child: Column(
+                        children: [
+                          const Text(
+                            '100 Coupons',
+                            style: TextStyle(
+                                color: Color.fromRGBO(22, 30, 30, 1),
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18),
+                          ),
+                          const SizedBox(height: 5),
+                          const Divider(
+                            thickness: .5,
+                            height: 5,
+                            indent: 25,
+                            endIndent: 25,
+                            color: Color.fromRGBO(196, 196, 196, 1),
+                          ),
+                          const SizedBox(height: 13),
+                          const Text(
+                            'You can book here for your coupons. And you can pay for it at the next delivery. 100 coupons will be added to your account Once it is paid',
+                            style: TextStyle(
+                              color: Color.fromRGBO(66, 65, 65, 1),
+                              fontSize: 12,
                             ),
-                            const SizedBox(height: 5),
-                            const Divider(
-                              thickness: .5,
-                              height: 5,
-                              indent: 25,
-                              endIndent: 25,
-                              color: Color.fromRGBO(196, 196, 196, 1),
-                            ),
-                            const SizedBox(height: 13),
-                            const Text(
-                              'You can book here for your coupons. And you can pay for it at the next delivery. 100 coupons will be added to your account Once it is paid',
-                              style: TextStyle(
-                                color: Color.fromRGBO(66, 65, 65, 1),
-                                fontSize: 12,
-                              ),
-                              textAlign: TextAlign.left,
-                              maxLines: 6,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                            const SizedBox(
-                              height: 18,
-                            ),
-                            ElevatedButton(
-                                onPressed: () {},
-                                style: ElevatedButton.styleFrom(
-                                  minimumSize: const Size(100, 33),
-                                  elevation: 0,
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(8),
-                                  ),
-                                  primary:
-                                      const Color.fromRGBO(119, 64, 220, 1),
+                            textAlign: TextAlign.left,
+                            maxLines: 6,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          const SizedBox(
+                            height: 18,
+                          ),
+                          ElevatedButton(
+                              onPressed: () {},
+                              style: ElevatedButton.styleFrom(
+                                minimumSize: const Size(100, 33),
+                                elevation: 0,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(8),
                                 ),
-                                child: const Text(
-                                  'Book Now',
-                                  style: TextStyle(
-                                    color: Color.fromRGBO(252, 255, 255, 1),
-                                    fontSize: 15,
-                                  ),
-                                ))
-                          ],
-                        ),
+                                primary:
+                                    const Color.fromRGBO(119, 64, 220, 1),
+                              ),
+                              child: const Text(
+                                'Book Now',
+                                style: TextStyle(
+                                  color: Color.fromRGBO(252, 255, 255, 1),
+                                  fontSize: 15,
+                                ),
+                              ))
+                        ],
                       ),
                     ),
                   ]),
@@ -174,56 +172,54 @@ class _HomeState extends State<Home> {
                       alignment: Alignment.center,
                       height: 200.63,
                       width: 147.0,
-                      child: Flexible(
-                        child: Column(
-                          children: [
-                            const Text(
-                              '50 Coupons',
-                              style: TextStyle(
-                                  color: Color.fromRGBO(22, 30, 30, 1),
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18),
+                      child: Column(
+                        children: [
+                          const Text(
+                            '50 Coupons',
+                            style: TextStyle(
+                                color: Color.fromRGBO(22, 30, 30, 1),
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18),
+                          ),
+                          const SizedBox(height: 5),
+                          const Divider(
+                            thickness: .5,
+                            height: 5,
+                            indent: 25,
+                            endIndent: 25,
+                            color: Color.fromRGBO(196, 196, 196, 1),
+                          ),
+                          const SizedBox(height: 13),
+                          const Text(
+                            'You can book here for your coupons. And you can pay for it at the next delivery. 100 coupons will be added to your account Once it is paid',
+                            style: TextStyle(
+                              color: Color.fromRGBO(66, 65, 65, 1),
+                              fontSize: 12,
                             ),
-                            const SizedBox(height: 5),
-                            const Divider(
-                              thickness: .5,
-                              height: 5,
-                              indent: 25,
-                              endIndent: 25,
-                              color: Color.fromRGBO(196, 196, 196, 1),
-                            ),
-                            const SizedBox(height: 13),
-                            const Text(
-                              'You can book here for your coupons. And you can pay for it at the next delivery. 100 coupons will be added to your account Once it is paid',
-                              style: TextStyle(
-                                color: Color.fromRGBO(66, 65, 65, 1),
-                                fontSize: 12,
-                              ),
-                              textAlign: TextAlign.left,
-                              maxLines: 6,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                            const SizedBox(height: 18),
-                            ElevatedButton(
-                                onPressed: () {},
-                                style: ElevatedButton.styleFrom(
-                                  minimumSize: const Size(100, 33),
-                                  elevation: 0,
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10),
-                                  ),
-                                  primary:
-                                      const Color.fromRGBO(119, 64, 220, 1),
+                            textAlign: TextAlign.left,
+                            maxLines: 6,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          const SizedBox(height: 18),
+                          ElevatedButton(
+                              onPressed: () {},
+                              style: ElevatedButton.styleFrom(
+                                minimumSize: const Size(100, 33),
+                                elevation: 0,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
                                 ),
-                                child: const Text(
-                                  'Book Now',
-                                  style: TextStyle(
-                                    color: Color.fromRGBO(252, 255, 255, 1),
-                                    fontSize: 15,
-                                  ),
-                                ))
-                          ],
-                        ),
+                                primary:
+                                    const Color.fromRGBO(119, 64, 220, 1),
+                              ),
+                              child: const Text(
+                                'Book Now',
+                                style: TextStyle(
+                                  color: Color.fromRGBO(252, 255, 255, 1),
+                                  fontSize: 15,
+                                ),
+                              ))
+                        ],
                       ),
                     ),
                   ]),
@@ -253,56 +249,54 @@ class _HomeState extends State<Home> {
                       alignment: Alignment.center,
                       height: 200.63,
                       width: 147.0,
-                      child: Flexible(
-                        child: Column(
-                          children: [
-                            const Text(
-                              '25 Coupons',
-                              style: TextStyle(
-                                  color: Color.fromRGBO(22, 30, 30, 1),
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18),
+                      child: Column(
+                        children: [
+                          const Text(
+                            '25 Coupons',
+                            style: TextStyle(
+                                color: Color.fromRGBO(22, 30, 30, 1),
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18),
+                          ),
+                          const SizedBox(height: 5),
+                          const Divider(
+                            thickness: .5,
+                            height: 5,
+                            indent: 25,
+                            endIndent: 25,
+                            color: Color.fromRGBO(196, 196, 196, 1),
+                          ),
+                          const SizedBox(height: 13),
+                          const Text(
+                            'You can book here for your coupons. And you can pay for it at the next delivery. 100 coupons will be added to your account Once it is paid',
+                            style: TextStyle(
+                              color: Color.fromRGBO(66, 65, 65, 1),
+                              fontSize: 12,
                             ),
-                            const SizedBox(height: 5),
-                            const Divider(
-                              thickness: .5,
-                              height: 5,
-                              indent: 25,
-                              endIndent: 25,
-                              color: Color.fromRGBO(196, 196, 196, 1),
-                            ),
-                            const SizedBox(height: 13),
-                            const Text(
-                              'You can book here for your coupons. And you can pay for it at the next delivery. 100 coupons will be added to your account Once it is paid',
-                              style: TextStyle(
-                                color: Color.fromRGBO(66, 65, 65, 1),
-                                fontSize: 12,
-                              ),
-                              textAlign: TextAlign.left,
-                              maxLines: 6,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                            const SizedBox(height: 18),
-                            ElevatedButton(
-                                onPressed: () {},
-                                style: ElevatedButton.styleFrom(
-                                  minimumSize: const Size(100, 33),
-                                  elevation: 0,
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(8),
-                                  ),
-                                  primary:
-                                      const Color.fromRGBO(119, 64, 220, 1),
+                            textAlign: TextAlign.left,
+                            maxLines: 6,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          const SizedBox(height: 18),
+                          ElevatedButton(
+                              onPressed: () {},
+                              style: ElevatedButton.styleFrom(
+                                minimumSize: const Size(100, 33),
+                                elevation: 0,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(8),
                                 ),
-                                child: const Text(
-                                  'Book Now',
-                                  style: TextStyle(
-                                    color: Color.fromRGBO(252, 255, 255, 1),
-                                    fontSize: 15,
-                                  ),
-                                ))
-                          ],
-                        ),
+                                primary:
+                                    const Color.fromRGBO(119, 64, 220, 1),
+                              ),
+                              child: const Text(
+                                'Book Now',
+                                style: TextStyle(
+                                  color: Color.fromRGBO(252, 255, 255, 1),
+                                  fontSize: 15,
+                                ),
+                              ))
+                        ],
                       ),
                     ),
                   ]),
@@ -348,7 +342,7 @@ class _HomeState extends State<Home> {
                 Container(
                   color: const Color.fromRGBO(22, 30, 30, 1),
                   height: 178.0,
-                  width: 237.0,
+                  width: 200.0,
                   child: SvgPicture.asset(
                     "assets/help Bottom.svg",
                     fit: BoxFit.contain,
